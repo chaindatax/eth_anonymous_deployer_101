@@ -2,7 +2,6 @@
   "name": "eth_anonymous_deployer_101",
   "version": "1.0.0",
   "scripts": {
-    "install" : "forge install foundry-rs/forge-std && forge install openzeppelin/openzeppelin-contracts",
     "fg-build": "forge build",
     "fg-test": "forge test -vv",
     "remaps": "forge remappings > remappings.txt",

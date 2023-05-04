@@ -6,7 +6,6 @@ cache_hardhat/
 forge-cache/
 artifacts/
 typechain-types/
-lib/
 
 eth_deployer_sandbox.iml
 
