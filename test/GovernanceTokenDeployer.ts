@@ -150,7 +150,7 @@ describe("GovernanceTokenDeployer", function () {
     })
 
     it('can use random signature parameters', async function () {
-        const {wallet, unsignedTx, signedTx, GovernanceTokenFactory} = await loadFixture(testFixture)
+        const {wallet, signedTx} = await loadFixture(testFixture)
 
         const initialBalance = await ethers.provider.getBalance(wallet.address)
 
