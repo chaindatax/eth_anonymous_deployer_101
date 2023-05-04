@@ -1,0 +1,41 @@
+{
+  "name": "eth_anonymous_deployer_101",
+  "version": "1.0.0",
+  "scripts": {
+    "fg-build": "forge build",
+    "fg-test": "forge test -vv",
+    "remaps": "forge remappings > remappings.txt",
+    "hh-compile": "npx hardhat compile",
+    "hh-test": "npx hardhat test"
+  },
+  "description": "This repository is an example of how to deploy a contract anonymously on the Ethereum blockchain",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjuge/eth_anonymous_deployer_101.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjuge/eth_anonymous_deployer_101/issues"
+  },
+  "homepage": "https://github.com/vjuge/eth_anonymous_deployer_101#Readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.16.0",
+    "chai": "^4.3.7",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.0",
+    "hardhat-deploy": "^0.11.26",
+    "hardhat-preprocessor": "^0.1.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
